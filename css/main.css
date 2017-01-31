@@ -16,8 +16,27 @@ html {
   background: -moz-linear-gradient(#ff9500, #ff5e3a);
   background: linear-gradient(#ff9500, #ff5e3a);
   height: 100%;
+  font-family: 'Overpass', sans-serif;
+  padding: 2em;
+  color: white;
 }
-
+h1 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.target, a {
+  color: rgba(255,255,255,.8);
+}
+
+.target:hover, a:hover {
+  color: rgba(255,255,255,1);
+}
+
+.border {
+  border-top: 3px solid rgba(255,255,255,.8);
 }
