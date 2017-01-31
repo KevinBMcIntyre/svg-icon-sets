@@ -13,6 +13,7 @@ html {
   height: 100%;
   font-family: 'Overpass', sans-serif;
   color: white;
+  background: #ff5e3a;
 }
 
 body {
@@ -32,11 +33,22 @@ h2 {
   background: linear-gradient(#ff9500, #ff5e3a);
 }
 
+unit {
+  width: 100%;
+}
+
+svg {
+  text-align: center;
+}
+
 h1 {
   font-family: 'Overpass', sans-serif;
   font-weight: bold;
   text-align: center;
+  padding-top: .25em;
+  font-weight: bold;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
